@@ -1,0 +1,191 @@
+/*Alex Huard*/
+
+@font-face{
+	font-family: sidebarFont;
+	src: url(Fonts/neuropolitical.ttf);
+}
+
+body{
+	background: black;
+}
+/*Square*/
+Topbar{
+	width:200;
+	height:100;
+	top:0;
+	left:0;
+	position: absolute;
+	background:black;
+}
+/*Triangle*/
+blackbar{
+    width: 0; 
+    height: 0; 
+	top:100;
+	left:0;
+    border-left: 200px solid transparent;
+	position:absolute;
+    border-top: 50px solid black;
+}
+
+
+
+
+/*The screenshots area*/
+
+#screencap{
+	padding: 10px;
+	background-color: #002E5C;
+	border-color:#FF0000;
+	width: 600;
+	border-style:solid;
+}
+
+div imagename{
+	size: 25;
+	text-decoration: Bold;
+	color: #
+}
+
+div img{
+	width: 20%;
+	height: auto%;
+}
+
+div desc{
+	size: 14;
+	
+}
+
+/*End Screenshots*/
+
+
+
+
+
+
+
+sidebar A{
+	color: black;
+	text-decoration:none;
+	font-family:sidebarFont;
+}
+
+sidebar A:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+Pageindex{
+	position:absolute;
+	width:600;
+	height:auto;
+	top:100;
+	left:210;
+	color:white;
+	/*margin-right:200;*/
+}
+
+brokenlink{
+	color:red;
+	text-decoration: line-through;
+}
+brokenlink:hover{
+	color:grey;
+}
+
+Pageindex A{
+color:red;
+}
+
+Pageindex A:hover{
+	text-decoration:underline;
+}
+
+Pageindex h1{
+	text-decoration:underline;
+}
+
+Pageindex A{
+	text-decoration:none;
+}
+
+Pageindex p{
+	font-size:16;
+	
+}
+
+/*Div IDs*/
+
+#HeaderTitle{
+	width: 700;
+	height:94;	
+	/*color:black;*/
+	position:absolute;
+	top:0;
+	left:0;
+	background: url(Images/Header-Name-Underline.png);
+	/*border-style: groove;
+	border-width: 5px;
+	*/
+}
+
+#NameSmall{
+	width: 200;
+	height:36;	
+	/*color:black;*/
+	position:fixed;
+	top:64;
+	left:0;
+	background: url(Images/Header-Name-Transparent-Small.png);
+	/*border-style: groove;
+	border-width: 5px;
+	*/
+}
+
+#sidebar-text{
+	height: 400;
+	width: 150;
+	position:fixed;
+	top: 120;
+	left:50;
+	font-size: 24;
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: left;
+}
+
+#sidebar{
+	top: 100;
+	left:-200;
+	background-color:#FF0000;
+}
+#sidebareffect-green{
+	top: 98;
+	left:-202;
+	background-color:#00FF00;
+}
+
+#sidebareffect-blue{
+	top: 100;
+	left:-198;
+	background-color:0000FF;
+}
+
+.circle{
+	border-radius: 50;
+	height: 400;
+	width: 400;
+	text-align: center;
+	position:fixed;
+	line-height: 100;
+}
+
+#Jeremy:hover{
+	width: 281;
+	height:500;
+	background: url(Images/jeremytoo.jpg);
+	color:black;
+	border-style: groove;
+	border-width: 5px;
+}
+	
