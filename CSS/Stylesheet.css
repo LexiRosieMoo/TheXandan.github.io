@@ -1,10 +1,5 @@
 /*Alex Huard*/
 
-@font-face{
-	font-family: sidebarFont;
-	src: url(Fonts/neuropolitical.ttf);
-}
-
 body{
 	background: black;
 }
@@ -63,16 +58,7 @@ div desc{
 
 
 
-sidebar A{
-	color: black;
-	text-decoration:none;
-	font-family:sidebarFont;
-}
 
-sidebar A:hover{
-	color: black;
-	text-decoration:underline;
-}
 
 Pageindex{
 	position:absolute;
@@ -140,51 +126,6 @@ Pageindex p{
 	border-width: 5px;
 	*/
 }
-
-.SideBarDesc{
-	width: 150;
-	color: black;
-	
-}
-
-.circle{
-	border-radius: 50;
-	height: 400;
-	width: 400;
-	text-align: center;
-	position:fixed;
-	line-height: 100;
-}
-
-#sidebar-text{
-	height: 400;
-	width: 150;
-	position:fixed;
-	top: 120;
-	left:50;
-	font-size: 24;
-	font-family: "Arial Black", Gadget, sans-serif;
-	text-align: left;
-}
-
-#sidebar{
-	top: 100;
-	left:-200;
-	background-color:#FF0000;
-}
-#sidebareffect-green{
-	top: 98;
-	left:-402;
-	width:600;
-	background-color:#00FF00;
-}
-
-#sidebareffect-blue{
-	top: 100;
-	left:-198;
-	background-color:0000FF;
-}
-
 
 #Jeremy:hover{
 	width: 281;
