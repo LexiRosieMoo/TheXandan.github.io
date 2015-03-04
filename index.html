@@ -12,33 +12,7 @@
 	<body>
 		<script src="Scripts/jquery.js"></script>
 		<script src="Scripts/jquerytransit.js"></script>
-		
-		<script>
-			$(document).ready(function () {
-				$( "#Games")
-				.mouseover(function() {
-					$("#sidebareffect-blue").transition({x:'200px'});
-					}
-				)
-				.mouseout(function() {
-					$("#sidebareffect-blue").transition({x:'0px'});
-				}
-				);
-				
-				$( "#Stuff")
-				.mouseover(function() {
-					$("#sidebareffect-green").transition({x:'200px'});
-					$("#sidebareffect-green-text").transition({x:'200px'});
-					}
-				)
-				.mouseout(function() {
-					$("#sidebareffect-green").transition({x:'0px'});
-					$("#sidebareffect-green-text").transition({x:'200px'});
-				}
-				);
-				
-			});
-		</script>
+		<script src="Scripts/slidebar.js">	</script>
 		
 		
 		
@@ -53,13 +27,13 @@
 			</p>
 		</Pageindex>
 		
->
+
 		<a href=index.html> <div class="column" id="NameSmall"></div> </a>
 		<topbar>
 		<blackbar> </blackbar>
 		<a href=index.html> <div class="column" id="HeaderTitle"></div> </a>
 		<sidebar>	
-			<div class="circle" id="sidebareffect-blue" ></div>
+			<div class="circle" id="sidebareffect-blue"></div>
 			<div class="circle" id="sidebareffect-green"></div>
 			<div class="circle" id="sidebar"></div>
 			<div class="column" id="sidebar-text">

@@ -141,7 +141,11 @@ Pageindex p{
 	*/
 }
 
-
+.SideBarDesc{
+	width: 150;
+	color: black;
+	
+}
 
 .circle{
 	border-radius: 50;
