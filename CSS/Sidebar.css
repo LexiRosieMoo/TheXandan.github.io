@@ -9,10 +9,20 @@
 	position:fixed;
 	top: 120;
 	left:30;
-	font-size: 24;
+	font-size: 12;
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-align: left;
 	color:white;
+}
+
+#sidebar-blue A{
+	text-decoration: underline;
+	color: white;
+}
+
+#sidebar-blue A:Hover{
+	text-decoration: underline;
+	color: darkgrey;
 }
 
 #sidebar-green{
@@ -73,8 +83,8 @@ sidebar A:hover{
 	
 }
 
-.circle{
-	border-radius: 50;
+.side{
+	/*border-radius: 50;*/
 	height: 400;
 	width: 400;
 	text-align: center;
