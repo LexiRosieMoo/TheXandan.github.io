@@ -1,0 +1,37 @@
+@font-face{
+	font-family: TopbarFont;
+	src: url(Fonts/zerovelo.ttf);
+}
+
+#TopTextred{
+	font-size:63px;
+	color:red;
+	font-family: TopbarFont;
+	position:absolute;
+	left:1px;
+	top:10;
+	z-index:300;
+	width:100%;
+}
+
+#TopTextblue{
+	font-size:63px;
+	color:blue;
+	font-family: TopbarFont;
+	left:1px;
+	top:10;
+	position:absolute;
+	z-index:100;
+	width:100%;
+}
+
+#TopTextgreen{
+	font-size:63px;
+	color:#00FF00;
+	font-family: TopbarFont;
+	left:1px;
+	top:10;
+	position:absolute;
+	z-index:200;
+	width:100%;
+}
