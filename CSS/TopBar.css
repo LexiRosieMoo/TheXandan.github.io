@@ -3,35 +3,37 @@
 	src: url(Fonts/zerovelo.ttf);
 }
 
-#TopTextred{
-	font-size:63px;
+
+
+#TopTextred{	
 	color:red;
-	font-family: TopbarFont;
-	position:absolute;
-	left:1px;
-	top:10;
 	z-index:300;
-	width:100%;
 }
 
-#TopTextblue{
-	font-size:63px;
+#TopTextblue{	
 	color:blue;
-	font-family: TopbarFont;
-	left:1px;
-	top:10;
-	position:absolute;
 	z-index:100;
-	width:100%;
 }
 
 #TopTextgreen{
-	font-size:63px;
 	color:#00FF00;
-	font-family: TopbarFont;
+	z-index:200;
+}
+
+.Top{
+	font-size:63px;
+	position:absolute;
+	width:100%;
 	left:1px;
 	top:10;
-	position:absolute;
-	z-index:200;
-	width:100%;
+	font-family: TopbarFont;
+	-webkit-transform-origin: left center;
+}
+
+.Side{
+	
+	font-size:36px;
+	position:fixed;
+	top:64;
+	left:0;
 }
