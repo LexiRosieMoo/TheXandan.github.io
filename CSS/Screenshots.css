@@ -2,22 +2,36 @@
 	padding: 10px;
 	background-color: #002E5C;
 	border-color:#FF0000;
-	width: 600;
+	width: auto%;
 	border-style:solid;
 }
 
-div imagename{
-	size: 25;
-	text-decoration: Bold;
-	color: #
+.albumstyle{
+	width:50%;
+	min-width:200px;
+	height:auto%;
+	
 }
 
-div img{
+#imageplace{
+	display:inline-block;
+	
+}
+
+.gamestyle{
 	width: 20%;
 	height: auto%;
 }
 
-div desc{
+desc{
 	size: 14;
 	
+}
+#imagename{
+	size: 25;
+	text-decoration: Bold;
+	color: #;
+	text-align:center;
+	display:inline;
+	position:relative;
 }
