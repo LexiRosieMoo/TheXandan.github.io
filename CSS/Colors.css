@@ -1,0 +1,13 @@
+sel1::selection{background:red;
+font-size:72px;}
+sel2::selection{background:blue;}
+sel3::selection{background:green;}
+sel4::selection{background:yellow;}
+sel5::selection{background:darkblue;}
+sel6::selection{background:purple;}
+sel7::selection{background:goldenrod;}
+sel8::selection{background:orangered;}
+sel9::selection{background:forestgreen;}
+sel9::selection::after{
+	content:" More!";
+}
