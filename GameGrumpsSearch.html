@@ -1,0 +1,58 @@
+<HTML>
+	<header>
+
+	<link rel="Stylesheet" type="text/css" href="CSS/Stylesheet.css">
+	<link rel="Stylesheet" type="text/css" href="CSS/Sidebar.css">
+	<link rel="Stylesheet" type="text/css" href="CSS/TopBar.css">
+	<link rel="Stylesheet" type="text/css" href="CSS/GrumpPage.css">
+	<title>
+		GG Search
+	</title>
+
+	</header>
+
+	<body>
+
+		<!--Global Scripts-->
+		
+		<!--Written By Alex Huard-->
+		
+		<script src="Scripts/jquery.js"></script>
+		<script src="Scripts/jquerytransit.js"></script>
+		<script src="Scripts/slidebar.js">	</script>
+		<script src="Scripts/inmove.js"></script>
+		<script src="Scripts/GGSearch.js"></script>
+				<!--The Actual Page Contents-->
+		<Pageindex>
+
+			<center><h1>Game Grumps Subreddit Search Tool</h1></center>
+
+			<hr>
+			<form>
+				<h2>Shows</h2>
+					<input type="checkbox" id="Grumps">Game Grumps <br>
+					<input type="checkbox" id="Steam">Steam Train <br>
+					<input type="checkbox" id="Cade">GrumpCade <br>
+					<input type="checkbox" id="Out">GrumpOut <br>
+				<h2>Content</h2>
+					<input type="checkbox" id="Art">Fan Art <br>
+					<input type="checkbox" id="Remix">Remixes <br>
+					<input type="checkbox" id="Discussion">Discussion <br>
+					<input type="checkbox" id="Joke">Jokes <br>
+					<input type="checkbox" id="Question">Questions <br>
+					
+				<h2>Misc</h2>
+					Sort <br>
+					<input type="radio" name="Sort" id="relevance" checked>Relevance <br>
+					<input type="radio" name="Sort" id="new">New <br>
+					<input type="radio" name="Sort" id="comments">Comments <br>
+					<input type="radio" name="Sort" id="top">Top <br>
+					<input type="text" id="keyword"> Keyword? <br><br>
+				
+					<input type="Submit" value="Search" onclick="search()">
+			</form>
+			
+			<hr>
+			
+			If you have any questions or suggestions please message <A href="https://www.reddit.com/user/xandan">xandan</A> on reddit.
+		</Pageindex>

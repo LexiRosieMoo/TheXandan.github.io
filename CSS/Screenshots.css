@@ -11,9 +11,12 @@
 	width:50%;
 	min-width:200px;
 	height:auto%;
+<<<<<<< HEAD
+=======
 	border: 0px solid black;
 	transition: all .3s ease-in-out;
 	
+>>>>>>> origin/master
 }
 
 .albumstyle:hover
@@ -31,10 +34,16 @@
 	height: auto%;
 }
 
-desc{
-	size: 14;
-	
+
+
+#desc{
+	width:inherit;
+	height:inherit;
+	color:white;
+	display:none;
 }
+
+
 #imagename{
 	size: 25;
 	text-decoration: Bold;
