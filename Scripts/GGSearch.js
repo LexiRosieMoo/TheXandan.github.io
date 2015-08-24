@@ -58,6 +58,10 @@ function search()
 		link = link.concat("+OR+flair:Question");
 	}
 	
+	if (document.getElementById("Animation").checked)
+	{
+		link = link.concat("+OR+flair:Animation");
+	}
 	link = link.concat(")")
 	
 	//End Content
