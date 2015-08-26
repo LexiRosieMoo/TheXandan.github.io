@@ -62,6 +62,11 @@ function search()
 	{
 		link = link.concat("+OR+flair:Animation");
 	}
+	
+	if (document.getElementById("Misc").checked)
+	{
+		link = link.concat("+OR+flair:Misc");
+	}
 	link = link.concat(")")
 	
 	//End Content
