@@ -2,9 +2,22 @@ form{
 	color:white;
 }
 
-Pageindex form h2{
+
+
+#GrumpPageindex form h2{
 	size:24px;
 	font-weight:bold;
 	text-decoration: none;
 }
-
+#GrumpPageindex{
+	position:relative;
+	width:600px;
+	height:auto;
+	top:100;
+	color:white;
+	text-align:left;
+	border:1px solid white;
+	padding:10px;
+	margin:auto;
+	margin-bottom:100px;
+}
