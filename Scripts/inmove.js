@@ -1,8 +1,8 @@
 $(document).ready(function () {
-	$("#sidebareffect-green").delay(100).transition({x:'0px',y:'-2px'});
-	$("#sidebareffect-blue").delay(100).transition({x:'2px'});
-	$("#TopTextgreen").delay(100).transition({x:'1px',y:'-1px'});
-	$("#TopTextblue").delay(100).transition({x:'10px', y:'-5'});
+	$("#sidebareffect-green").delay(500).transition({x:'0px',y:'-2px'});
+	$("#sidebareffect-blue").delay(500).transition({x:'2px'});
+	$("#TopTextgreen").delay(500).transition({x:'5px',y:'-3px'});
+	$("#TopTextblue").delay(500).transition({x:'10px', y:'-6'});
 	/*loop();*/
 	/*
 	$("#TopTextred").mouseover(function(){

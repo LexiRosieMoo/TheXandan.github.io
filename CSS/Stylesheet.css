@@ -27,7 +27,11 @@ h2{
 	text-decoration:underline;
 }
 
-
+h3{
+	/*text-decoration:underline;*/
+	font-size: 36;
+	font-family:TopbarFont;
+}
 
 Pageindex{
 	position:absolute;
@@ -96,12 +100,5 @@ Pageindex p{
 	*/
 }
 
-#Jeremy:hover{
-	width: 281;
-	height:500;
-	background: url(Images/jeremytoo.jpg);
-	color:black;
-	border-style: groove;
-	border-width: 5px;
-}
+
 	
